@@ -22,12 +22,12 @@ jobs:
 
       # BACKEND
       - name: Install backend dependencies
-        run: npm ci
+        run: npm install
         working-directory: phonebook-backend
 
       # FRONTEND
       - name: Install frontend dependencies
-        run: npm ci
+        run: npm install
         working-directory: the-phonebook
 
       - name: Build frontend
